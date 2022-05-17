@@ -26,7 +26,7 @@ CREATE PROCEDURE USP_PUNTAJE_TATETI ()<br>
 BEGIN<br>
 SELECT sum(cruz), sum(circulo) FROM estadistica<br>
 END<br><br>
-CREATE PROCEDURE ELIMINAR_AHORCADO ()<br>
+CREATE PROCEDURE USP_ELIMINAR_TATETI ()<br>
 BEGIN<br>
-delete from historial;<br>
+delete from estadistica;<br>
 END
